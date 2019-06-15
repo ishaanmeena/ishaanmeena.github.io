@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum|Montserrat|Roboto|Roboto+Condensed|Ubuntu+Condensed&display=swap');
+
+.front {
+  background: url(../img/art-art-materials-bright-743986.jpg) no-repeat center fixed;
+  height: 100vh;
+  background-size: cover;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto Condensed';
+  overflow-x: hidden;
+}
+
+.nav-link{
+  color: rgba(0,0,0,0.6) !important;
+  padding-right: 20px;
+}
+
+.nav-link:hover{
+  transition-duration: 350ms;
+}
+
+.nav-link {
+  font-size: 1rem;
+  color: black !important;
+}
+
+.navbar-brand{
+  font-weight: bold;
+  font-size: 2.3rem;
+  color: #34383D !important;
+}
+
+.mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background: linear-gradient(to right, rgba(255,255,255,0.2), rgba(0,0,0,0.4)); */
+}
+
+
+#front-text-lg{
+  font-family: 'Cuprum', 'sans-serif';
+  font-weight: bolder;
+  font-size: 3.2rem;
+}
+
+#front-text-under{
+  font-family: 'Cuprum', 'sans-serif';
+  font-weight: bolder;
+  font-size: 2.2rem;
+}
+
+#front-text-small{
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.front-text{
+  line-height: 2.5rem;
+}
+.container-fluid{
+  padding: 3% 15%;
+  align-items: center;
+}
+
+.seprator{
+  text-decoration: none;
+  font-size: 2.2rem;
+  font-weight: lighter;
+}
+
+.middle{
+  background: linear-gradient(to bottom, #E9E7EA, #16BFFD);
+}
+
+.icon:hover{
+  filter: invert(1);
+  transition-duration: 350ms;
+}
+
+.last{
+  background: #16BFFD;
+}

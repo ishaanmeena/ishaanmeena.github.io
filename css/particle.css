@@ -1,0 +1,9 @@
+body{
+  background: grey;
+}
+
+#particles-js{
+  background-image: url(img/me.png);
+  background-size: cover;
+  height: 680px;
+}

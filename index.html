@@ -3,6 +3,11 @@
 <html>
 
 <head>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src='js/bootstrap.min.js'></script>
+    <script src='jquery/jquery.fullpage.js'></script>
     <meta charset="utf-8">
     <title>iM</title>
     <link rel="stylesheet" href="css/style.css">
@@ -11,13 +16,19 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/master.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src='jquery/jquery.fullpage.js'></script>
+    <script src='js/bootbox.js'></script>
 </head>
 
 <body>
+    <script>
+        bootbox.alert({
+            size: "small",
+            title: "Welcome",
+            message: "The website is a single page website with multiple sections, the y-axis overflow is hidden, so scroll down to see the content.",
+            callback: function () {}
+        })
+    </script>
+
     <div id="fullpage">
         <section>
             <div class="front">
@@ -31,7 +42,8 @@
                         <div class="collapse navbar-collapse" id="navbarToggler">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
-                                    <a href="https://github.com/ishaanmeena/resume/blob/master/StandardTCS%20.pdf" class="nav-link">Resume</a>
+                                    <a href="https://github.com/ishaanmeena/resume/blob/master/StandardTCS%20.pdf"
+                                        class="nav-link">Resume</a>
                                 </li>
                             </ul>
                         </div>
@@ -109,7 +121,8 @@
                                         <div class="card-body">
                                             <h5 class="card-title">Campus Ambassador</h5>
                                             <h6 class="card-subtitle mb-2 text-muted"><em>GeeksForGeeks</em></h6>
-                                            <p class="card-text">Campus Ambassador for GeeksForGeeks for year 2019-2020</p>
+                                            <p class="card-text">Campus Ambassador for GeeksForGeeks for year 2019-2020
+                                            </p>
                                         </div>
                                     </div>
                                     <span class="gap"></span>
@@ -117,7 +130,8 @@
                                         <div class="card-body">
                                             <h5 class="card-title">Website Developer & Event Coordinator</h5>
                                             <h6 class="card-subtitle mb-2 text-muted"><em>Gamecom</em></h6>
-                                            <p class="card-text">Website Developer and Gaming Event Coordinator for Gamecom Gamejam's</p>
+                                            <p class="card-text">Website Developer and Gaming Event Coordinator for
+                                                Gamecom Gamejam's</p>
                                         </div>
                                     </div>
                                     <br>

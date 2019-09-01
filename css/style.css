@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum|Montserrat|Roboto|Roboto+Condensed|Ubuntu+Condensed&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#fullpage{
+	height: 100vh;
+	overflow: hidden;
+}
+
+#fullpage section{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+
+#fullpage section{
+	height: 100vh;
+}
+
+#fullpage section:nth-child(2){
+	background: linear-gradient(to bottom, #E9E7EA, #16BFFD);
+}
+
+#fullpage section:nth-child(3){
+	background: linear-gradient(to bottom, #16BFFD,#00c3ff, #ffff1c);
+}

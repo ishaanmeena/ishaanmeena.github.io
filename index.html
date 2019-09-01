@@ -1,96 +1,156 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+
+<html>
 
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/master.css">
-  <title>iM</title>
+    <meta charset="utf-8">
+    <title>iM</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/master.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src='jquery/jquery.fullpage.js'></script>
 </head>
 
 <body>
-  <div class="front">
-    <div class="mask">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a href="#" class="navbar-brand">iM</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarToggler">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a href="#" class="nav-link">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Resume</a>
-            </li>
-            <li class="nav-itesm">
-              <a href="#" class="nav-link">Contact Me</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <div class="container-fluid" id="myDIV">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <br>
-            <br>
-            <h1 class="front-text">I'm Ishan</h1>
-            <h1 class="front-text" id="front-text-lg">I'll be the CSS,</h1>
-            <h2 class="front-text" id="front-text-under">To Your HTML</h2>
-            <h6 class="front-text" id="front-text-small">Or maybe both...</h6>
-          </div>
-        </div>
-      </div>
+    <div id="fullpage">
+        <section>
+            <div class="front">
+                <div class="mask">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a href="#" class="navbar-brand">iM</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarToggler">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a href="https://github.com/ishaanmeena/resume/blob/master/StandardTCS%20.pdf" class="nav-link">Resume</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="container-fluid" id="myDIV">
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <br>
+                                <br>
+                                <h1 class="front-text">I'm Ishan</h1>
+                                <h1 class="front-text" id="front-text-lg">I'll be the CSS,</h1>
+                                <h2 class="front-text" id="front-text-under">To Your HTML</h2>
+                                <h6 class="front-text" id="front-text-small">Or maybe both...</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="middle">
+                <div class="container-fluid">
+                    <div id="top-text" class="text-center">
+                        <h1 id="do">Something about me</h1>
+                        <p class="under">Extremely motivated to constantly develop my skills an grow as an individual.
+                            Love to learn new things and explore.</p>
+                        <p class="under">Love playing CSGO, PUBG and watching anime.</p>
+                        <br>
+                        <a href="https://steamcommunity.com/id/imeena/" target="_blank"><img class="p2"
+                                src="img/iconmonstr-steam-4-64.png"
+                                alt="Your browser is unable to render this content."></a>
+                    </div>
+                    <br>
+                    <p id="hr"><b>_____________</b></p>
+                    <br>
+                    <div id="top-text" class="text-center">
+                        <h1 id="do">What I can do?</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 text-center">
+                            <img class="p2" src="img/iconmonstr-paintbrush-7-64.png"
+                                alt="Your browser is unable to render this content.">
+                            <br>
+                            <h2 class="dd">Design what you want</h2>
+                            <p id="hr">_</p>
+                            <p class="under">I can design a web page suiting your needs. Hit me up if you need one.</p>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <img class="p2" src="img/iconmonstr-code-2-64.png"
+                                alt="Your browser is unable to render this content.">
+                            <br>
+                            <h2 class="dd">Develop what you need</h2>
+                            <p id="hr">_</p>
+                            <p class="under">I can also develop a custom web application fitting your needs.</p>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <p><em>Click on the below button to see what I've worked on...</em></p>
+                    <a href="https://github.com/ishaanmeena?tab=repositories" target="_blank"><button type="button"
+                            class="btn btn-dark btn-lg btn-block">My Projects</button></a>
+                </div>
+            </div>
+        </section>
+        <section id="l">
+            <div class="last text-center">
+                <div class="container-fluid text-center">
+                    <div class="row text-center">
+                        <div class="col-md-12 justify-content-center">
+                            <div>
+                                <h3 class="text-center">Position of responsibility</h3>
+                                <br>
+                                <div class="row justify-content-center">
+                                    <div class="card col-lg-4" style="width: 4rem;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Campus Ambassador</h5>
+                                            <h6 class="card-subtitle mb-2 text-muted"><em>GeeksForGeeks</em></h6>
+                                            <p class="card-text">Campus Ambassador for GeeksForGeeks for year 2019-2020</p>
+                                        </div>
+                                    </div>
+                                    <span class="gap"></span>
+                                    <div class="card col-lg-4" style="width: 4rem;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Website Developer & Event Coordinator</h5>
+                                            <h6 class="card-subtitle mb-2 text-muted"><em>Gamecom</em></h6>
+                                            <p class="card-text">Website Developer and Gaming Event Coordinator for Gamecom Gamejam's</p>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <br><br>
+                                <h3>Or maybe, just wanna talk ?</h3>
+                                <h4>Connect with me.</h4>
+                                <a href="https://twitter.com/IshanMNA">
+                                    <img class="icon" src="svg/twitter.svg" alt="Chania">
+                                </a>
+                                <span class="seprator"></span>
+                                <a href="https://www.linkedin.com/in/ishan-meena-50b811180/">
+                                    <img class="icon " src="svg/iconfinder_linkedin-social-media_765228.svg" alt="">
+                                </a>
+                                <span class="seprator"></span>
+                                <a href="https://github.com/ishaanmeena">
+                                    <img class="icon" src="svg/iconfinder_github-social-media_765246.svg" alt="">
+                                </a>
+                            </div>
+                            <br>
+                            OR
+                        </div>
+                    </div>
+                </div>
+                <a href="mailto:ishaan.meena005@gmail.com"> <img class="p2 showhim" src="img/iconmonstr-email-1-64.png"
+                        alt="Your browser is unable to render this content.">
+                    <h6 class="onH">Email? Old school huh? Ok, I dig that too!</h6>
+                </a>
+        </section>
     </div>
-  </div>
-  <div class="middle">
-    <div class="container-fluid">
-      <div id="top-text" class="text-center">
-        <h1 id="do">What I can do?</h1>
-        <br>
-        <br>
-      </div>
-      <div class="row">
-        <div class="col-md-6 text-center">
-          <h2 class="dd">Design what you want</h2>
-          <p class="under">I can design a web page suiting your needs. Hit me up if you need one.</p>
-        </div>
-        <div class="col-md-6 text-center">
-          <h2 class="dd">Develop what you need</h2>
-          <p class="under">I can also develop a custom web application fitting your needs.</p>
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="row text-center">
-        <div class="col-md-12">
-          <h4>Connect with me</h4>
-          <a href="https://twitter.com/IshanMNA">
-            <img class="icon" src="svg/twitter.svg" alt="Chania">
-          </a>
-          <span class="seprator">|</span>
-          <a href="https://www.linkedin.com/in/ishan-meena-50b811180/">
-            <img class="icon "src="svg/iconfinder_linkedin-social-media_765228.svg" alt="">
-          </a>
-          <span class="seprator">|</span>
-          <a href="https://github.com/ishaanmeena">
-            <img class="icon" src="svg/iconfinder_github-social-media_765246.svg" alt="">
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid text-center last">
-      <a href="mailto:ishaan.meena005@gmail.com" target="_blank" class="btn btn-dark text-center">Contact Me</a>
-  </div>
 </body>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script type="text/javascript" src="js/particles.min.js"></script>
-<script type="text/javascript" src="js/app.js"></script>
-<script type="text/javascript" src="js/autotype.js"></script>
+<script type="text/javascript">
+    $('#fullpage').fullpage();
+</script>
 
 </html>

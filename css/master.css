@@ -55,6 +55,7 @@ body {
   font-size: 2.2rem;
 }
 
+
 #front-text-small{
   font-size: 1.2rem;
   font-style: italic;
@@ -76,6 +77,7 @@ body {
 
 .middle{
   background: linear-gradient(to bottom, #E9E7EA, #16BFFD);
+  height: 100vh;
 }
 
 .icon:hover{
@@ -83,6 +85,51 @@ body {
   transition-duration: 350ms;
 }
 
+.p2:hover{
+  filter: invert(1);
+  transition-duration: 350ms;
+}
+
+#hr{
+  color: #23272B;
+}
+
+.card{
+  background-color: #16BFFD;
+  box-shadow: 10px 10px 30px black;
+  opacity: .99;
+}
+
+.card-subtitle{
+  color: black !important;
+}
+
+#l{
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
 .last{
-  background: #16BFFD;
+  background: linear-gradient(to bottom, #16BFFD,#00c3ff, #ffff1c);
+  height:100vh !important;
+  text-align: center;
+}
+
+.gap{
+  width: 1rem;
+}
+
+.alt{
+  color:red;
+}
+
+
+.onH {
+  display: none;
+  text-decoration: none;
+}
+
+.showhim:hover+.onH {
+  display: block;
 }
